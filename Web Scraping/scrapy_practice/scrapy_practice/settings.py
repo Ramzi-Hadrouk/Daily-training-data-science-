@@ -1,4 +1,4 @@
-# Scrapy settings for project_one project
+# Scrapy settings for scrapy_practice project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "project_one"
+BOT_NAME = "scrapy_practice"
 
-SPIDER_MODULES = ["project_one.spiders"]
-NEWSPIDER_MODULE = "project_one.spiders"
+SPIDER_MODULES = ["scrapy_practice.spiders"]
+NEWSPIDER_MODULE = "scrapy_practice.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "project_one (+http://www.yourdomain.com)"
+#USER_AGENT = "scrapy_practice (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "project_one.middlewares.ProjectOneSpiderMiddleware": 543,
+#    "scrapy_practice.middlewares.ScrapyPracticeSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "project_one.middlewares.ProjectOneDownloaderMiddleware": 543,
+#    "scrapy_practice.middlewares.ScrapyPracticeDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "project_one.pipelines.ProjectOnePipeline": 300,
+#    "scrapy_practice.pipelines.ScrapyPracticePipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
